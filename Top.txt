@@ -1,0 +1,5 @@
+﻿			<Static Align='Top' LeftMargin='20' RightMargin='20' ImageLeft='0' ImageTop='489' ImageWidth='349' ImageHeight='50' Height='50' AltImageLeft='368' AltImageTop='489' UsingRgn='1' IsTitleBar='1' >		
+
+				#include<TopCommon.txt>
+			
+			</Static>

@@ -1,0 +1,35 @@
+﻿			<Static Align='Bottom' Height='82' >
+				<Static VisParentMinWidth='435' Align='Left' State='CMD_COVER_IMAGE' LeftMargin='2' RightMargin='2' Width='80' ImageLeft='361' ImageTop='937' ImageWidth='6' ImageHeight='82' >
+					<Image CmdID='CMD_COVER_IMAGE' Enabled='1' Left='5' Top='5' Width='70' Height='72' />
+				</Static>
+				<Static Align='Client' LeftMargin='269' RightMargin='7' Height='80' ImageLeft='5' ImageTop='937' ImageWidth='361' ImageHeight='82' >
+					<Label CmdID='CMD_CURRENTTIME_MIN_MESSAGE' ColorX='934' ColorY='1052' Left='15' Top='16' Width='200' Height='34' FontBold='1' FontName='Arial' FontSize='33' />
+					<Label CmdID='CMD_TOTALTIME_MIN_MESSAGE' ColorX='934' ColorY='1067' Left='39' Top='52' Width='60' Height='15' FontBold='1' FontName='Arial' FontSize='15' />
+
+					<Label CmdID='CMD_CAPTION_WITH_MESSAGE' ColorX='934' ColorY='1018' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' Left='115' Top='22' Width='150' Height='16' FontBold='1' FontName='#DEFAULT_UI_FONT' FontSize='12' />
+					
+					<Static Left='115' Top='50' Width='150' Height='11' AutoSize='1' UsingAlpha='1' >
+						<Label Align='Left' CmdID='CMD_AUDIO_CODEC_TYPE_MESSAGE' ColorX='934' ColorY='1067' Width='31' FontName='Tahoma' FontSize='9' HoriAlignment='2' VertAlignment='1' AutoSize='1' />
+						<Layout Align='Left' Width='7' />
+						<Image Align='Left' Width='3' ImageLeft='631' ImageTop='1125' ImageWidth='3' ImageHeight='7' Alignment='5' />
+						
+						<Layout Align='Left' Width='7' />
+						<Label Align='Left' CmdID='CMD_AUDIO_BIT_RATE_MESSAGE' Text='%skbps' ColorX='934' ColorY='1067' Width='42' FontName='Tahoma' FontSize='9' HoriAlignment='1' VertAlignment='1' AutoSize='1' />
+						<Layout Align='Left' Width='7' />
+						<Image Align='Left' Width='3' ImageLeft='631' ImageTop='1125' ImageWidth='3' ImageHeight='7' Alignment='5' />
+
+						<Layout Align='Left' Width='7' />
+						<Label Align='Left' CmdID='CMD_AUDIO_OUT_SAMPLE_RATE_K_MESSAGE' Text='%skhz' ColorX='934' ColorY='1067' Width='40' FontName='Tahoma' FontSize='9' HoriAlignment='0' VertAlignment='1' AutoSize='1' />
+					</Static>
+
+					<Visual VisMinWidth='50' Left='268' Top='17' Width='-5' Height='29' BarWidth='4' BarDistance='1' LineDistance='1' LineHeight='1' 
+						BarStartColorX='864' BarStartColorY='543' BarEndColorX='864' BarEndColorY='543' OscColorX='864' OscColorY='543' RefreshTime='25' PeakHeight='1' PeakColorX='864' PeakColorY='543' />
+
+					<Button Tooltip='$ID_PLAY_REPEAT_START_SET' CmdID='ID_PLAY_REPEAT_START_SET' Left='-94' Top='52' Width='16' Height='13' ImageLeft='0' ImageTop='1124' />	
+					<Button Tooltip='$ID_PLAY_REPEAT_RESET' CmdID='ID_PLAY_REPEAT_RESET' Left='-74' Top='52' Width='7' Height='13' ImageLeft='280' ImageTop='1124' />
+					<Button Tooltip='$ID_PLAY_REPEAT_STOP_SET' CmdID='ID_PLAY_REPEAT_STOP_SET' Left='-63' Top='52' Width='16' Height='13' ImageLeft='76' ImageTop='1124' />	
+
+					<Button Tooltip='$ID_PLAYBACK_REPEAT' CmdID='ID_PLAYBACK_REPEAT' Left='-41' Top='52' Width='16' Height='13' ImageLeft='144' ImageTop='1124' />	
+					<Button Tooltip='$ID_PLAYBACK_SHUFFLE' CmdID='ID_PLAYBACK_SHUFFLE' Left='-22' Top='52' Width='16' Height='13' ImageLeft='212' ImageTop='1124' />	
+				</Static>
+			</Static>

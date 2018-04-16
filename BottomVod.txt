@@ -1,0 +1,35 @@
+﻿			<Static Align='Bottom' State='CMD_WEB_VOD' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='5' ImageTop='694' ImageWidth='304' ImageHeight='33' Left='0' Top='0' Width='0' Height='33' >
+				<Layout Align='Left' Width='5' />
+				<Image Align='Left' CmdID='CMD_CLIP_PD_TYPE' Width='15' ImageLeft='482' ImageTop='163' ImageWidth='15' ImageHeight='16' Alignment='5' AutoSize='1' AutoVisible='1' >
+					<SubImage ImageLeft='482' ImageTop='163' ImageWidth='15' ImageHeight='16' />
+					<SubImage ImageLeft='381' ImageTop='233' ImageWidth='65' ImageHeight='20' />
+					<SubImage ImageLeft='381' ImageTop='261' ImageWidth='42' ImageHeight='20' />
+					<SubImage ImageLeft='381' ImageTop='289' ImageWidth='48' ImageHeight='20' />
+				</Image>
+				<Layout Align='Left' CmdID='CMD_CLIP_PD_TYPE' Width='5' AutoVisible='1' />
+				<Label Align='Left' CmdID='CMD_WEB_VOD_AUTHOR_MESSAGE' AutoVisible=1' AutoSize=1' Cursor='HAND' Enabled='1' ColorX='864' ColorY='511' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' Width='1' FontName='#DEFAULT_UI_FONT' FontSize='12' VertAlignment=1 />
+				<Layout Align='Left' CmdID='CMD_CLIP_PLAY_MESSAGE' Width='5' AutoVisible='1' />
+				<Image Align='Left' CmdID='CMD_CLIP_PLAY_MESSAGE' Width='16' ImageLeft='520' ImageTop='163' ImageWidth='12' ImageHeight='16' Alignment='5' AutoVisible='1' />
+				<Layout Align='Left' CmdID='CMD_CLIP_PLAY_MESSAGE' Width='2' AutoVisible='1' />
+				<Label Align='Left' CmdID='CMD_CLIP_PLAY_MESSAGE' VertAlignment='1' ColorX='864' ColorY='84' Width='1' AutoSize='1' FontName='#DEFAULT_UI_FONT' FontSize='12' AutoVisible='1' />
+				<Layout Align='Left' CmdID='CMD_CLIP_LIKE_MESSAGE' Width='5' AutoVisible='1' />
+				<Image Align='Left' CmdID='CMD_CLIP_LIKE_MESSAGE' Width='18' ImageLeft='536' ImageTop='162' ImageWidth='14' ImageHeight='17' Alignment='5' AutoVisible='1' />
+				<Layout Align='Left' CmdID='CMD_CLIP_LIKE_MESSAGE' Width='2' AutoVisible='1' />
+				<Label Align='Left' CmdID='CMD_CLIP_LIKE_MESSAGE' VertAlignment='1' ColorX='864' ColorY='84' Width='1' AutoSize='1' FontName='#DEFAULT_UI_FONT' FontSize='12' AutoVisible='1' />
+				<Layout Align='Left' Width='5' />
+				
+				<Layout Align='Right' Width='3' />
+				<Button Align='Right' CmdID='CMD_POPUPMENU_VOD_QUALITY' AutoVisible='1' Width='61' ImageLeft='485' ImageTop='18' ImageWidth='61' ImageHeight='22' CorrectPopupPos='1' AutoSize='1' LeftMargin='5' RightMargin='20' >
+					<Layout Align='Right' Width='5' />
+					<Label Align='Right' CmdID='CMD_WEB_VOD_QUALITY_MESSAGE' AutoVisible=1' AutoSize=1' ColorX='864' ColorY='511' Width='5' FontName='#DEFAULT_UI_FONT' FontSize='12' VertAlignment=1 />
+					<Layout Align='Right' Width='25' />
+				</Button>				
+				<Layout Align='Right' Width='5' />
+				<Button Align='Right' CmdID='CMD_CLIP_LIKE' Width='41' ImageLeft='345' ImageTop='124' ImageWidth='41' ImageHeight='26' VisParentMinWidth='335' />
+				<Layout Align='Right' Width='5' CmdID='CMD_CLIP_LIKE' VisParentMinWidth='335' />
+				
+				<Label Align='Right' CmdID='CMD_DOWNLOAD_RATE_MESSAGE' ColorX='864' ColorY='53' Width='5' AutoSize='1' FontName='#DEFAULT_UI_FONT' FontSize='12' VertAlignment='1' />			
+				<Layout Align='Right' CmdID='CMD_DOWNLOAD_RATE_MESSAGE' Width='5' />
+				
+				<Label Align='Client' CmdID='CMD_WEB_VOD_CONTENT_MESSAGE' ColorX='864' AutoVisible=1' ColorY='511' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='12' HoriAlignment='0' VertAlignment='1' />
+			</Static>

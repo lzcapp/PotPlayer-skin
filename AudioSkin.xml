@@ -1,0 +1,100 @@
+﻿<?XML version='1.0' ?>
+
+<Skin Version='1.0' MinorVersion='1000'>
+
+	#include<Common.txt>
+
+#if<SkinType==Touch>
+	<MainSkinAreaOscFrame WidthLimit='380'
+#else
+	<MainSkinAreaOscFrame WidthLimit='313'
+#endif
+		HeightLimit='0' Image='Main.png' AlphaMode='1' UseWindowFrame='0' >
+		#include<Logo.txt>
+		<Control>
+			#if<SkinType==Touch>
+			    <ImageReplace Image='TouchMain.png' AlphaMode='1'>
+					<Static Align='Top' LeftMargin='20' RightMargin='20' ImageLeft='2' ImageTop='673' ImageWidth='571' ImageHeight='4' Height='4' UsingRgn='1' />
+					<Static Align='Bottom' LeftMargin='20' RightMargin='340' ImageLeft='2' ImageTop='849' ImageWidth='571' ImageHeight='4' Height='4' UsingRgn='1' />
+					<Static Align='Left' TopMargin='42' BottomMargin='84' ImageLeft='2' ImageTop='677' ImageWidth='4' ImageHeight='172' Width='4' />
+					<Static Align='Right' TopMargin='42' BottomMargin='84' ImageLeft='569' ImageTop='677' ImageWidth='4' ImageHeight='172' Width='4' />						
+				</ImageReplace>
+				#include<TouchRight.txt>
+			#else
+				<Static Align='Top' LeftMargin='20' RightMargin='20' Height='5' ImageLeft='0' ImageTop='741' ImageWidth='233' ImageHeight='5' AltImageLeft='253' AltImageTop='741' UsingRgn='1' />
+				#include<BottomLeft.txt>
+				#if<PlayerType==1>
+					<Static Align='Right' TopMargin='20' BottomMargin='20' ImageLeft='344' ImageTop='539' ImageWidth='5' ImageHeight='187' Width='5' AltImageLeft='712' AltImageTop='539' />
+				#else
+					#include<Right.txt>
+				#endif
+			#endif
+			<Static Align='Client' Contain='CMD_VIDEO_WINDOW' />
+		</Control>
+	</MainSkinAreaOscFrame>
+	<MainSkinAreaOscInside Image='Main.png'>
+		#include<Logo.txt>
+		<Control>
+			#if<SkinType==Touch>
+				#include<TouchTop.txt>
+				#include<TopCast.txt>
+				#include<TouchBottom.txt>
+			#else
+				#include<TopOsc.txt>
+				#include<TopCast.txt>
+				#include<BottomVideo.txt>
+				#include<BottomAudio.txt>
+			#endif
+			#include<BottomVod.txt>
+			#include<Popup.txt>
+		</Control>
+	</MainSkinAreaOscInside>
+
+#if<SkinType==Touch>
+	<MainSkinArea WidthLimit='380'
+#else
+	<MainSkinArea WidthLimit='390' #if<PlayerType==1> ForceMinHeight='1' #endif
+#endif
+		HeightLimit='0' Image='Main.png' AlphaMode='1' UseWindowFrame='0' >
+		#include<Logo.txt>
+		<Control>
+			#if<SkinType==Touch>
+			    <ImageReplace Image='TouchMain.png' AlphaMode='1'>
+					<Static Align='Top' LeftMargin='20' RightMargin='20' ImageLeft='2' ImageTop='673' ImageWidth='571' ImageHeight='4' Height='4' UsingRgn='1' />
+					<Static Align='Bottom' LeftMargin='20' RightMargin='20' ImageLeft='2' ImageTop='849' ImageWidth='571' ImageHeight='4' Height='4' UsingRgn='1' />
+					<Static Align='Left' TopMargin='42' BottomMargin='84' ImageLeft='2' ImageTop='677' ImageWidth='4' ImageHeight='172' Width='4' />
+					<Static Align='Right' TopMargin='42' BottomMargin='84' ImageLeft='569' ImageTop='677' ImageWidth='4' ImageHeight='172' Width='4' />						
+				</ImageReplace>			
+				#include<TouchTop.txt>
+				#include<TouchRight.txt>
+				#include<TopCast.txt>
+				#include<TouchBottom.txt>
+				#include<Popup.txt>
+			#else
+				<Static Align='Top' LeftMargin='20' RightMargin='20' ImageLeft='0' Height='49' ImageTop='889' ImageWidth='371' ImageHeight='49' AltImageLeft='391' AltImageTop='889' UsingRgn='1' IsTitleBar='1' >
+					#include<TopCommon.txt>
+				</Static>
+				
+				#include<BottomLeft.txt>
+				#if<PlayerType==1>
+					<Static Align='Right' TopMargin='20' BottomMargin='20' ImageLeft='344' ImageTop='539' ImageWidth='5' ImageHeight='187' Width='5' AltImageLeft='712' AltImageTop='539' />
+				#else
+					#include<Right.txt>
+				#endif
+				#include<TopCast.txt>
+				#include<BottomVideo.txt>
+				#include<BottomAudio.txt>
+				#include<Popup.txt>
+			#endif
+			#include<BottomVod.txt>
+			<Static Align='Client' Contain='CMD_VIDEO_WINDOW' />
+		</Control>
+	</MainSkinArea>
+
+	#if<PlayerType==1>
+		#include<SubCommon.txt #CONTROL1=Dummy #CONTROL2=Dummy>	
+	#else
+		#include<SubCommon.txt #CONTROL1=Button #CONTROL2=Layout>
+	#endif
+
+</Skin>

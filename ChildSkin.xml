@@ -1,0 +1,22 @@
+﻿<?XML version='1.0' ?>
+
+<Skin Version='1.0' MinorVersion='1000'>
+
+	#include<Common.txt>
+
+	<MainSkinArea Image='Main.png' AlphaMode='1' WidthLimit='260' HeightLimit='0' UseWindowFrame='0'>
+		#include<Logo.txt>
+		<Control>
+			#include<TopCast.txt>
+			#include<BottomVideo.txt>
+			#include<Popup.txt>
+			#include<BottomVod.txt>
+			
+			<Static Align='Client' State='' Contain='CMD_VIDEO_WINDOW' />
+
+		</Control>
+	</MainSkinArea>
+
+	#include<SubCommon.txt #CONTROL1=Button #CONTROL2=Layout>
+
+</Skin>

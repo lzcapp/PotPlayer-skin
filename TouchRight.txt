@@ -1,0 +1,25 @@
+﻿		<ImageReplace Image='TouchMain.png' AlphaMode='1'>		
+			<Static Align='Right' Contain='CMD_CHAT_PLAYLIST_BROADCAST_TOGGLE' Width='1'>
+				<Static Align='Top' State='' LeftMargin='260' RightMargin='10' ImageLeft='255' ImageTop='719' ImageWidth='314' ImageHeight='46' Height='46' >
+					<Static Align='Left' State='CMD_BROADCAST_ATTACH' UsingAlpha='1' Width='105' >
+						<Button CmdID='CMD_BROADCAST_LIST_TAB_SELECT' Left='0' Top='0' Width='105' Height='46' ImageLeft='2' ImageTop='876'>	
+							<Label FontName='#DEFAULT_UI_FONT' FontSize='12' Text='$MAIN_TAB_PROGRAM' HoriAlignment='1' VertAlignment='1' ColorX='705' ColorY='833' OverColorX='311' OverColorY='328' PushColorX='311' PushColorY='328' OffsetTop='-2' />
+						</Button>	
+						<Button Tooltip='$CMD_DETACH_CAST' CmdID='CMD_ATTACH_BROADCAST' Left='90' Top='2' Width='13' Height='11' ImageLeft='358' ImageTop='238' />	
+					</Static>
+					<Static Align='Left' State='CMD_CHAT_ATTACH' UsingAlpha='1' Width='105' >
+						<Button CmdID='CMD_CHAT_TAB_SELECT' Left='0' Top='0' Width='105' Height='46' ImageLeft='2' ImageTop='876'>	
+							<Label FontName='#DEFAULT_UI_FONT' FontSize='12' Text='$MAIN_TAB_CHAT' HoriAlignment='1' VertAlignment='1' ColorX='705' ColorY='833' OverColorX='311' OverColorY='328' PushColorX='311' PushColorY='328' OffsetTop='-2' />
+						</Button>	
+						<Button Tooltip='$CMD_DETACH_CHAT' CmdID='CMD_ATTACH_CHAT' Left='90' Top='2' Width='13' Height='11' ImageLeft='358' ImageTop='238' />	
+					</Static>
+					<Static Align='Left' State='CMD_PLAYLIST_ATTACH' UsingAlpha='1' Width='105' >
+						<Button CmdID='CMD_PLAYLIST_TAB_SELECT' Left='0' Top='0' Width='105' Height='46' ImageLeft='2' ImageTop='876'>	
+							<Label FontName='#DEFAULT_UI_FONT' FontSize='12' Text='$MAIN_TAB_PLAYLIST' HoriAlignment='1' VertAlignment='1' ColorX='705' ColorY='833' OverColorX='311' OverColorY='328' PushColorX='311' PushColorY='328' OffsetTop='-2' />
+						</Button>	
+						<Button Tooltip='$CMD_DETACH_PLAYLIST' CmdID='CMD_ATTACH_PLAYLIST' Left='90' Top='2' Width='13' Height='11' ImageLeft='358' ImageTop='238' />	
+					</Static>
+				</Static>
+			</Static>
+			<Static Align='Right' Contain='CMD_CHAT_PLAYLIST_BROADCAST_TOGGLE' TopMargin='20' BottomMargin='20' ImageLeft='251' ImageTop='718' ImageWidth='4' ImageHeight='132' Width='4' IsSplitter='1' MinSplitterSizeLT='384' MinSplitterSizeRB='319' OffsetTop='-1' OffsetHeight='2' />
+		</ImageReplace>

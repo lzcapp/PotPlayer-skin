@@ -1,0 +1,83 @@
+﻿			<Static Align='Top' State='CMD_VIEWER_MODE CMD_BROADCAST_MODE' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='5' ImageTop='539' ImageWidth='304' ImageHeight='41' Left='0' Top='0' Width='0' Height='41'>
+				
+				<Static Align='Client' State='CMD_VIEWER_MODE' UsingAlpha='1' >
+					<Layout Align='Left' Width='8' />
+					<Image Align='Left' CmdID='CMD_CAST_PD_TYPE' Width='2' ImageLeft='340' ImageTop='233' ImageWidth='2' ImageHeight='20' Alignment='5' AutoSize='1' >
+						<SubImage ImageLeft='340' ImageTop='233' ImageWidth='2' ImageHeight='20' />
+						<SubImage ImageLeft='381' ImageTop='233' ImageWidth='65' ImageHeight='20' />
+						<SubImage ImageLeft='381' ImageTop='261' ImageWidth='42' ImageHeight='20' />
+						<SubImage ImageLeft='381' ImageTop='289' ImageWidth='48' ImageHeight='20' />
+					</Image>
+					<Layout Align='Left' Width='8' />
+
+					<Layout Align='Right' Width='4' />
+					<Button Align='Right' Tooltip='$CAST_ETC' CmdID='CMD_POPUP_WINDOW' Width='33' ImageLeft='345' ImageTop='159' ImageWidth='33' ImageHeight='25' PopupTag='30000' PopupPos='30000' PopupAlign='3' PopupMarginX='-64' PopupMarginY='-5' />
+					<Layout Align='Right' Width='4' />
+					<Button Align='Right' Tooltip='$CAST_CHANGE_BITRATE' CmdID='CMD_POPUPMENU_VOD_QUALITY' AutoVisible='1' Width='61' ImageLeft='485' ImageTop='15' ImageWidth='61' ImageHeight='28' CorrectPopupPos='1' AutoSize='1' LeftMargin='5' RightMargin='20' VisParentMinWidth='395' >
+						<Layout Width='10' />
+						<Label Align='Right' CmdID='CMD_WEB_VOD_QUALITY_MESSAGE' AutoVisible=1' AutoSize=1' ColorX='864' ColorY='511' Width='5' FontName='#DEFAULT_UI_FONT' FontSize='12' VertAlignment=1 />
+						<Layout Width='25' />
+					</Button>
+					<Layout Align='Right' Width='4' VisParentMinWidth='390' />
+					<Button Align='Right' Tooltip='$CAST_RECOMMAND' CmdID='CMD_GOOD_BROADCAST' Width='41' ImageLeft='345' ImageTop='124' ImageWidth='41' ImageHeight='26' VisParentMinWidth='445' />
+					<Layout Align='Right' Width='4' CmdID='CMD_GOOD_BROADCAST' VisParentMinWidth='445' />
+					<Button Align='Right' Tooltip='$CAST_SEND_CASH' CmdID='CMD_CAST_SEND_CASH' Width='41' ImageLeft='0' ImageTop='195' ImageWidth='41' ImageHeight='26' VisParentMinWidth='485' />
+					<Layout Align='Right' Width='4' CmdID='CMD_CAST_SEND_CASH' VisParentMinWidth='485' />
+					<Button Align='Right' Tooltip='$CAST_FAVORITE' CmdID='CMD_BOOKMARK_BROADCAST' Width='41' ImageLeft='0' ImageTop='160' ImageWidth='41' ImageHeight='26' VisParentMinWidth='525' />
+					<Layout Align='Right' Width='4' CmdID='CMD_BOOKMARK_BROADCAST' VisParentMinWidth='525' />
+					<Button Align='Right' Tooltip='$CAST_PLUS_FRIEND' CmdID='CMD_PLUS_FRIEND' Width='41' ImageLeft='0' ImageTop='125' ImageWidth='41' ImageHeight='26' VisParentMinWidth='565' />
+					<Layout Align='Right' Width='4' CmdID='CMD_PLUS_FRIEND' VisParentMinWidth='565' />
+
+					<Label Align='Left' CmdID='CMD_BROADCAST_NAME' Enabled='1' Cursor='HAND' ColorX='864' ColorY='511' OverColorX='864' OverColorY='99' PushColorX='864' PushColorY='99' AutoSize='1' Width='1' MaxAutoSize='-75' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='12' HoriAlignment='0' VertAlignment='1' />
+					<Layout Align='Left' Width='10' />
+					
+					<Label Align='Client' CmdID='CMD_CHAT_NOTIFY_MESSAGE' ColorX='864' ColorY='588' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='12' HoriAlignment='0' VertAlignment='1' />
+					
+				</Static>
+				<Static Align='Client' State='CMD_BROADCAST_MODE' UsingAlpha='1' >
+					<Layout Align='Left' Width='8' />
+					<Image Align='Left' CmdID='CMD_CAST_PD_TYPE' Width='2' ImageLeft='340' ImageTop='233' ImageWidth='2' ImageHeight='20' Alignment='5' AutoSize='1' >
+						<SubImage ImageLeft='340' ImageTop='233' ImageWidth='2' ImageHeight='20' />
+						<SubImage ImageLeft='381' ImageTop='233' ImageWidth='65' ImageHeight='20' />
+						<SubImage ImageLeft='381' ImageTop='261' ImageWidth='42' ImageHeight='20' />
+						<SubImage ImageLeft='381' ImageTop='289' ImageWidth='48' ImageHeight='20' />
+					</Image>
+					<Layout Align='Left' Width='8' />
+				
+					<Layout Align='Right' Width='20' />
+					<Button Align='Right' CmdID='CMD_COPY_BROADCAST' Tooltip='$CAST_SHARE' Width='18' ImageLeft='570' ImageTop='163' ImageWidth='18' ImageHeight='14' />
+					
+					<Layout Align='Right' Width='10' />
+					<Label Align='Right' VertAlignment='1' CmdID='CMD_BAD_NUM_MESSAGE' ColorX='864' ColorY='129' Width='1' AutoSize='1' FontName='#DEFAULT_UI_FONT' FontSize='12' />
+					<Layout Align='Right' Width='4' />
+					<Image Align='Right' Width='16' ImageLeft='644' ImageTop='163' ImageWidth='16' ImageHeight='16' Alignment='5' />
+					
+					<Layout Align='Right' Width='10' />					
+					<Label Align='Right' VertAlignment='1' CmdID='CMD_GOOD_NUM_MESSAGE' ColorX='864' ColorY='84' Width='1' AutoSize='1' FontName='#DEFAULT_UI_FONT' FontSize='12' />
+					<Layout Align='Right' Width='4' />
+					<Image Align='Right' Width='16' ImageLeft='533' ImageTop='163' ImageWidth='16' ImageHeight='16' Alignment='5' />
+					
+					<Layout Align='Right' Width='10' />					
+					<Label Align='Right' VertAlignment='1' CmdID='CMD_PLAY_NUM_MESSAGE' ColorX='864' ColorY='84' Width='1' AutoSize='1' FontName='#DEFAULT_UI_FONT' FontSize='12' />
+					<Layout Align='Right' Width='4' />
+					<Image Align='Right' Width='12' ImageLeft='518' ImageTop='163' ImageWidth='12' ImageHeight='16' Alignment='5' />
+					
+					<Layout Align='Right' Width='10' />					
+					<Label Align='Right' VertAlignment='1' CmdID='CMD_RESV_COOKIE_MESSAGE' ColorX='864' ColorY='84' Width='1' AutoSize='1' FontName='#DEFAULT_UI_FONT' FontSize='12' />
+					<Layout Align='Right' Width='4' />
+					<Image Align='Right' Width='15' ImageLeft='500' ImageTop='163' ImageWidth='15' ImageHeight='16' Alignment='5' />
+					
+					<Layout Align='Right' Width='10' />					
+					<Label Align='Right' VertAlignment='1' CmdID='CMD_VIEWER_NUM_MESSAGE' ColorX='864' ColorY='84' Width='1' AutoSize='1' FontName='#DEFAULT_UI_FONT' FontSize='12' />
+					<Layout Align='Right' Width='4' />
+					<Image Align='Right' Width='15' ImageLeft='482' ImageTop='163' ImageWidth='15' ImageHeight='16' Alignment='5' />
+					<Layout Align='Right' Width='10' />
+
+					<Label Align='Left' CmdID='CMD_BROADCAST_NAME' Enabled='1' Cursor='HAND' ColorX='864' ColorY='511' OverColorX='864' OverColorY='99' PushColorX='864' PushColorY='99' AutoSize='1' Width='1' MaxAutoSize='-75' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='12' HoriAlignment='0' VertAlignment='1' />
+					<Layout Align='Left' Width='10' />
+					
+					<Label Align='Client' CmdID='CMD_CHAT_NOTIFY_MESSAGE' ColorX='864' ColorY='588' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='12' HoriAlignment='0' VertAlignment='1' />
+					
+				</Static>			
+			
+			</Static>
