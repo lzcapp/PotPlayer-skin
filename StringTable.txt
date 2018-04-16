@@ -1877,7 +1877,7 @@
 	<StringTable Name='$CMD_LOAD_SKIN_XML_DEF' String='{$CP949=기본 모드$}{$CP936=默认模式$}{$CP950=預設模式$}{$CP0=Default mode$}' />
 	<StringTable Name='$CMD_LOAD_SKIN_XML_MIN' String='{$CP949=미니 모드$}{$CP936=迷你模式$}{$CP950=迷你模式$}{$CP0=Mini mode$}' />
 	<StringTable Name='$ID_APP_EXIT' String='{$CP949=프로그램 종료$}{$CP936=退出$}{$CP950=關閉$}{$CP0=Exit$}' />
-	<StringTable Name='$CMD_ATTACH_WINDOW_OPEN' String='{$CP949=채팅/방송목록/재생목록 열기$}{$CP936=打开聊天室/直播列表/播放列表$}{$CP950=開啟聊天室/直播清單/播放清單$}{$CP0=Open Chat room/Live list/Playlist$}' />
+	<StringTable Name='$CMD_ATTACH_WINDOW_OPEN' String='{$CP949=채팅/방송목록/재생목록 열기$}{$CP936=截图$}{$CP950=開啟聊天室/直播清單/播放清單$}{$CP0=Open Chat room/Live list/Playlist$}' />
 	<StringTable Name='$CMD_ATTACH_WINDOW_CLOSE' String='{$CP949=채팅/방송목록/재생목록 닫기$}{$CP936=关闭聊天室/直播列表/播放列表$}{$CP950=關閉聊天室/直播清單/播放清單$}{$CP0=Close Chat room/Live list/Playlist$}' />
 	<StringTable Name='$CMD_DETACH_CAST' String='{$CP949=방송목록 떼어 내기$}{$CP936=拆分直播/VOD 列表$}{$CP950=分離直播/VOD 清單$}{$CP0=Detach Live/VOD list$}' />
 	<StringTable Name='$CMD_DETACH_CHAT' String='{$CP949=채팅 떼어 내기$}{$CP936=拆分聊天室/浏览器$}{$CP950=分離聊天室/瀏覽器$}{$CP0=Detach Chat room/Browser$}' />
