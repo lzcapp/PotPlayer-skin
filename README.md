@@ -1,5 +1,6 @@
 # PotPlayer-skin
-A Revised Potplayer Skin.
+A Lightly Revised Potplayer Skin.
+Base on the default skin of PotPlayer.
 
 ## Screenshot
 ![](https://raw.githubusercontent.com/RainySummerLuo/PotPlayer-skin/master/Screenshot.PNG)
